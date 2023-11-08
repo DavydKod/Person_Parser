@@ -1,7 +1,4 @@
 use anyhow::anyhow;
-use pest::iterators::Pairs;
-use pest::Parser;
-use pest_derive::Parser;
 
 struct Person {
     name: String,

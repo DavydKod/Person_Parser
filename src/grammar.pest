@@ -1,0 +1,7 @@
+alpha = { 'a'..'z' | 'A'..'Z' }
+digit = { '0'..'9' }
+
+name = {(alpha)+}
+age = {(digit)+}
+city = {(alpha)+}
+person = {name~age~city}

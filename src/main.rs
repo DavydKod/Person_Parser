@@ -1,7 +1,7 @@
 use anyhow::anyhow;
+use pest::iterators::Pairs;
 use pest::Parser;
 use pest_derive::Parser;
-use pest::iterators::Pairs;
 
 struct Person {
     name: String,
@@ -152,6 +152,4 @@ mod simple_tests {
         assert_eq!(person.unwrap().to_string(), "Davyd-20-Lviv");
     }
 }
-pub fn main() {
-    
-}
+pub fn main() {}

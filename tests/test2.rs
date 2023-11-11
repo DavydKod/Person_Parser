@@ -1,4 +1,4 @@
-use Person_Parser::person_module::*;
+use person_parser::person_module::*;
 
 #[cfg(test)]
 mod difficult_tests {

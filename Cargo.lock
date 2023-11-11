@@ -3,14 +3,6 @@
 version = 3
 
 [[package]]
-name = "Person_Parser"
-version = "0.2.0"
-dependencies = [
- "anyhow",
- "fmt",
-]
-
-[[package]]
 name = "anyhow"
 version = "1.0.75"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -21,3 +13,11 @@ name = "fmt"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "09904adae26440d46daeacb5ed7922fee69d43ebf84d31e078cd49652cecd718"
+
+[[package]]
+name = "person_parser"
+version = "0.4.0"
+dependencies = [
+ "anyhow",
+ "fmt",
+]

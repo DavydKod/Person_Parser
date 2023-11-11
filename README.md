@@ -2,6 +2,8 @@
 
 Rust_parser
 
-THIS CRATE IS REPLACED.
-REFERENCE TO THE NEW CRATE:
-https://crates.io/crates/person_struct_parser
+THIS PROJECT IS REPLACED.
+REFERENCES TO THE NEW PROJECT:
+
+- GITHUB: https://github.com/DavydKod/person_struct_parser
+- CRATES.IO: https://crates.io/crates/person_struct_parser
